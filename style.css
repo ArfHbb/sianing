@@ -1,0 +1,328 @@
+body {
+    background: #f5f5f5;
+  }   
+	  #foto {
+    padding-right:10px;
+  }
+	
+	table{
+		
+		font-family: 'Roboto', Calibri;
+		color:black;
+		
+	}
+  
+  #formContainer {
+    max-width:60em;
+      width:100%;
+      margin:0 auto;
+      position:relative;
+	  border-radius: 5px;
+  }
+  
+  #survey-form {
+    background:white;
+      padding: 3.1em;
+      margin:3em 0;
+   /* border-style: solid;
+    border-color: #383851;
+    border-width: 1px;
+    border-radius: 5px; */
+   /* Box Shadow */
+    -webkit-box-shadow: 0px 4px 13px -1px rgba(0,0,0,0.3);
+    -moz-box-shadow: 0px 4px 13px -1px rgba(0,0,0,0.3);
+    box-shadow: 0px 4px 13px -1px rgba(0,0,0,0.3);
+  }
+  
+  
+  
+
+  
+  h1 {
+    color: #08a1c4;
+    font-family: 'Roboto', Calibri;
+    font-size: 2em;
+  }
+  
+  
+  
+  p {
+      font-family: 'Roboto', Calibri;
+      font-size: 1.1em;
+      color: black;
+      padding-bottom: 0.25em;
+  }
+  
+  
+    #pernyataan {
+	text-align:justify;
+
+  }
+  
+  
+    #ratatengah {
+	text-align:center;
+	vertical-align:middle;
+  }
+  
+  #title {
+    padding-bottom: 0.2em;
+    margin: 0;
+	font-weight: 700;
+  }
+  
+  #description {
+    padding-top: 0.25em;
+    margin-top: 0;
+    
+  }
+  /* label buat ngubah teks radio button */
+  
+  label {
+    font-family: 'Roboto', Calibri;
+    font-size: 1em;
+    color: black;  
+  }
+  
+  input, select {
+    width: 100%; 
+    border: 0;
+    height: 2.25em;
+    margin-top: 0.6em;
+    margin-bottom: 1.6em;
+    padding: 0 0.6em 0 0.6em; Esto me estira el input
+  }
+  
+  /* placeholder input versi lama
+  
+  .placeholder {
+    font-family: 'Roboto', Calibri;
+    font-size: 1em;
+    color: #5d646e;
+  }
+  
+  */
+  
+  
+  
+  /* Style to offset for the extra padding */
+  
+
+	
+	textarea {
+	width: calc(100% - 1.2em);
+    height: 50em;    
+    border: 0;
+    margin-top: 0.6em;
+    margin-bottom: 1.6em;
+    padding: 0 0.6em 0 0.6em; Esto me estira el input
+	background-color: white;
+    }
+  
+  hr {
+    border: 0;
+    height: 1px;
+    background-color: #dedede;
+    margin: 1.1em 0 2em 0;
+  }
+  
+  /* Radio Buttons */
+  
+  #radio-container, #checkbox-container {
+    padding-top: 1em;
+    text-align: center;
+  }
+  
+  #labelgroup, #radiogroup {
+    width: 6.2em;
+    padding-bottom: 0.8em;
+    text-align: center;
+  }
+  
+    
+  #radio-input, #checkbox-input {
+    width: auto;
+    height: auto;
+    -ms-transform: scale(1.5); /* Radio button scale IE */
+    -webkit-transform: scale(1.5); /* Chrome, Safari, Opera */
+    transform: scale(1.5);
+	
+    }
+	
+
+  
+  #radio-label, #checkbox-label {
+    display: block;
+  }
+  
+  /* select all span items inside container  */
+  #radio-container > span {
+    white-space: nowrap;
+    display: inline-block;
+  }
+  
+  #checkbox-container > span {
+    white-space: nowrap;
+    display: inline-block;
+  }
+  
+  #nowrap {
+    white-space: nowrap;
+    display: inline-block;
+  }
+  
+  .selector-group {
+    padding-bottom: 0.9em;
+  }
+  
+  textarea {
+    padding-top: 0.5em;
+	background-color: white;
+  }
+  
+  
+  #keterangan_halaman {
+    color: #5d646e;
+	font-size: 0.8em;
+  }
+  
+  
+  /* Submit Button */
+  
+  #submit {
+   
+   height: 3.3em;
+    margin: 0.75em 0 0 0;
+    border-style: solid;
+    border-width: 0.05em;
+    border-color: #00D2D3;
+    border-radius: 0.1em;
+    background-color: white;
+    font-family: 'Roboto', Calibri;
+    font-size: 1.1em;
+    color: #08a1c4;
+	display:inline-block;
+	word-wrap:break-word;
+	float:center;
+	transition: all 0.33s ease-in-out;
+	justify-self: center;
+	font-weight: 700;
+	border-radius: 5px;
+	text-transform: uppercase;
+  }
+  
+  
+  
+    #tombol {
+   width: 60%;
+   height: 3.3em;
+    margin: 0.75em 0 0 0;
+    border-style: solid;
+    border-width: 0.05em;
+    border-color: #00D2D3;
+    border-radius: 0.1em;
+    background-color: white;
+    font-family: 'Roboto', Calibri;
+    font-size: 1.1em;
+    color: #007bff;
+	display:inline-block;
+	word-wrap:break-word;
+	float:center;
+	transition: all 0.33s ease-in-out;
+	justify-self: center;
+	font-weight: 700;
+	border-radius: 5px;
+	float:center;
+	
+  }
+  
+    #tombol:hover {
+     background-color: #007bff;
+    color:white;
+  
+  }
+  
+  #submit:focus{
+    box-shadow: 0 0 0 3px rgba(0, 121, 89, 0.3);
+	}
+	
+ #tombol:focus{
+    box-shadow: 0 0 0 3px rgba(0, 121, 89, 0.3);
+	}
+  
+  #submit:hover {
+    background-color: #08a1c4;
+    color:white;
+  }
+  
+   
+   
+  
+  
+  /* Ngatur tombol submit versi baru 
+  
+  
+submit{
+    height: 40px;
+    width: 120px;
+    background: white;
+    border: 1px solid var(--fav);
+    border-radius: 3px;
+    font-family: 'Roboto', calibri;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 700;
+    cursor: pointer;
+    outline: none;
+    color: #007959;
+    transition: all 0.33s ease-in-out;
+    justify-self: center;
+}
+
+submit:hover{
+    background-color: #007959;
+    color:white;
+}
+
+submit:focus{
+    box-shadow: 0 0 0 3px rgba(0, 121, 89, 0.3);
+}
+
+
+  
+  */
+  
+  
+  
+  
+  /*Nyoba ganti style input */
+  .placeholder,
+.field-ta, #taMessage {
+    height: 2.25em;
+    border: 1px solid #dedede;
+    border-radius: 2px;
+    text-indent: 15px;
+    outline: none;
+    font-family: 'Roboto', Calibri;
+    font-size: 14px;
+    font-weight: 500;
+    transition: all 0.33s ease-in-out;
+
+}
+
+.placeholder::-webkit-input-placeholder,
+.field-ta::-webkit-input-placeholder, #taMessage::-webkit-input-placeholder {
+    color: #bbb;
+
+
+}
+
+.placeholder:focus,
+.field-ta:focus, #taMessage:focus {
+    border: 1px solid var(--fav);
+    box-shadow: 0 0 0 3px rgba(0, 121, 89, 0.3);
+}
+  
+  
+  /* Inspiration: https://time.flows.cc */ 
+  
